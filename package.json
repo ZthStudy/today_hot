@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "today-hot-serve": "node taskServe.js",
-    "deploy": "gh-pages -d html",
+    "deploy": "gh-pages html",
     "build": "vite build",
     "serve": "vite preview"
   },

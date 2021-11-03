@@ -5,6 +5,7 @@ import { ElementPlusResolver } from "unplugin-vue-components/resolvers";
 const path = require("path");
 
 export default defineConfig({
+  base: "/today_hot/",
   resolve: {
     alias: [
       {

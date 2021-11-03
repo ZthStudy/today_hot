@@ -37,7 +37,7 @@ const today = ref("");
 
 getTodayHot().then(({ data, date }) => {
   console.log({ data, date });
-  todayNews.value = data;
+  todayNews.value = data.filter(item => !!item);
   today.value = date;
 });
 </script>
